@@ -4,7 +4,6 @@ try:
     # Memeriksa apakah input adalah bilangan non-negatif
     if angka >= 0:
         angka_biner = bin(angka)
-        
         # Menghilangkan awalan '0b' dari string biner
         hasil_biner = angka_biner[2:]
         
@@ -13,5 +12,5 @@ try:
         print("Angka harus >0")
 
 except ValueError:
-
     print("Angka harus bilangan bulat")
+
