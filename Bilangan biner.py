@@ -1,4 +1,3 @@
-
 try:
     angka = int(input("Masukkan angka:"))
 
@@ -14,4 +13,5 @@ try:
         print("Angka harus >0")
 
 except ValueError:
+
     print("Angka harus bilangan bulat")
